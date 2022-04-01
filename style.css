@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.container{
+    margin: auto;
+    max-width: 1140px;
+}
+
+html, body{
+    overflow-x: hidden;
+}
+
+body{
+    background-color: #242240;
+}
+
+header{
+    padding: 30px 0;
+    max-width: 900px;
+    margin: auto;
+}
+
+header .row .col-12 img{
+    max-width: 180px;
+    min-height: 88px;
+}
+
+header .row .col-12 h1{
+    color: #1fbbff;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+header .row h1{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+header .row img{
+    max-width: 430px;
+    min-height: 400px;
+}
+
+.slider {
+    max-width: 450px;
+    height: 400px;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+header .container button{
+    padding: 10px;
+    max-width: 380px;
+    min-height: 44px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Arial', 'Arial', 'sans-serif';
+    font-weight: 600;
+    border-width: 1px;
+    border-radius: 30px;
+    background-color: #ff0000;
+    transition: .3s ease;
+}
+
+header .container button:hover{
+    background-color: darkred!important;
+    text-decoration: underline;
+    color: white;
+}
+
+.section1{
+    padding: 20px 0;
+}
+
+.section1 .row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mytitle{
+    margin: auto;
+    max-width: 1014px;
+    color: white;
+    font-size: 35px;
+    font-family: 'Roboto', 'Arial', 'sans-serif';
+    font-weight: 600;
+}
+
+.section1 .card{
+    background: none;
+    max-width: 255px;
+    min-height: 392px;
+}
+
+.section1 .card img{
+    align-items: center;
+    justify-content: center;
+    max-width: 150px!important;
+    min-height: 100px!important;
+}
+
+.section1 .card-body h5{
+    color: #1fbbff;
+    font-size: 30px;
+    font-family: Roboto, Arial, "sans-serif";
+    font-weight: 400;
+}
+
+.section1 .card-body p{
+    color: white;
+}
+
+.section1 .card-body a{
+    border-radius: 30px;
+    padding: 5px 30px;
+    transition: .3s ease;
+    border: none;
+}
+
+.section1 .card-body a:hover{
+    background: green!important;
+    border: none;
+}
+
+.section2{
+    padding: 20px 0;
+}
+
+.section2 .res{
+    max-width: 1200px!important;
+    min-height: 13rem;
+}
+
+.section2 .col-12{
+    margin: auto;
+}
+
+.section2 .card-body{
+    margin: auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+}
+
+.section2 .card-body h5{
+    font-family: 'Roboto', 'Arial', 'sans-serif';
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.section2 .card-body p{
+    font-family: 'Roboto', 'Arial', 'sans-serif';
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.btn1 button{
+    padding: 10px;
+    max-width: 380px;
+    min-height: 44px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-size: 15px;
+    font-family: 'Arial', 'Arial', 'sans-serif';
+    font-weight: 600;
+    border-width: 1px;
+    border-radius: 30px;
+    background-color: #ff0000;
+    transition: .3s ease;
+}
+
+.btn1 button:hover{
+    background-color: darkred!important;
+    color: white;
+}
+
+.section3{
+    padding: 50px 0;
+}
+
+.section3 .accordion .accordion-button{
+    color: blue;
+    font-family: 'Roboto', 'Arial', 'sans-serif';
+    font-size: 22px;
+    font-weight: 600;
+    transition: .3s ease;
+}
+
+.section3 .accordion .accordion-button:hover{
+    text-decoration: underline;
+    color: darkblue;
+}
+
+.section4{
+    padding: 20px 0;
+}
+
+.section4 .mytitle h1{
+    font-size: 30px;
+    max-width: 557px;
+}
+
+.section4 .forma .kurs label {
+    color: #fcf9f9;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 300;
+}
+
+.custom-switch .custom-control-label::before {
+    left: -2.25rem;
+    width: 1.75rem;
+    pointer-events: all;
+    border-radius: 0.5rem;
+}
+
+.section4 .forma {
+    border: 5px solid #1f5bff;
+    padding: 10px 45px;
+}
+
+.custom-control-label::before {
+    position: absolute;
+    top: 0.25rem;
+    left: -1.5rem;
+    display: block;
+    width: 1rem;
+    height: 1rem;
+    pointer-events: none;
+    content: "";
+    background-color: #fff;
+    border: #adb5bd solid 1px;
+}
+
+.section5{
+    padding: 20px 0;
+}
+
+.section5 .col-12 .container-fluid img{
+    max-width: 160px;
+    min-height: 160px;
+}
+
+.section5 .col-12 h1{
+    font-size: 20px;
+    font-family: 'Arial', Arial, sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.section5 .col-12 h1:hover{
+    text-decoration: underline;
+}
+
+.section6 .col-12 h4{
+    font-weight: 700;
+    font-size: 18px;
+    font-family: Roboto, Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    margin-top: 60px;
+}
+
+.section6 .col-12 span{
+    font-size: 18px;
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+}
+
+.d-block{
+    display: block!important;
+}
